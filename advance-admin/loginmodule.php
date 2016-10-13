@@ -2,8 +2,8 @@
 <head>
 	<meta charset="utf-8">
 		<link href="assets/css/style.css" rel='stylesheet' type='text/css' />
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:600italic,400,300,600,700' rel='stylesheet' type='text/css'>
+		<meta name="login" content="width=device-width, initial-scale=1">
+		
 </head>
 <body>
 	 <div class="main">
@@ -19,8 +19,8 @@
 						<div class="submit">
 							<input type="submit" value="LOGIN" >
 					</div>	
-					<p><a href="#">Forgot Password ?</a></p>
-					<input type="button" Value="Join Us" name="butn" class="sign" >
+					<p><a href="signup.php">Signup </a><a href="#">Forgot Password ?</a></p>
+					<input type="button" Value="Join Us" name="butn" class="sign" onclick="signup.php" >
 				</form>
 				
 			</div>

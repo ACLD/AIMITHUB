@@ -75,7 +75,7 @@
                            
                             
                              <li>
-                                <a href="Advance-admin\sprint.html"><img src="AIMIT HUB\print counter\sprint.png"  align ="left" height="30" width="30"> <b>Student Print</b></a>
+                                <a href="Advance-admin\sprint.html"><img src="main\sprint.png"  align ="left" height="30" width="30"> <b>Student Print</b></a>
                             </li>
                              
                            
@@ -89,19 +89,19 @@
                         <a href="#"><img src="main\essential.png"  height="42" width="42"> <b>Essential </b><span class="fa arrow"></span></a>
                          <ul class="nav nav-second-level">
                             <li>
-                                <a href="mca.html"><img src="AIMIT HUB\essential\MCA.png"  align ="left" height="30" width="30"><b> Master of Computer Applications</b></a>
+                                <a href="mca.html"><img src="main\MCA.png"  align ="left" height="30" width="30"><b> Master of Computer Applications</b></a>
                             </li>
                             <li>
-                                <a href="mba.html"><img src="AIMIT HUB\essential\mba.png"  align ="left" height="30" width="30"><b> Master of Business Administration</b></a>
+                                <a href="mba.html"><img src="main\mba.png"  align ="left" height="30" width="30"><b> Master of Business Administration</b></a>
                             </li>
                              <li>
-                                <a href="advance-admin\mscst.html"><img src="AIMIT HUB\essential\mscst.png"  align ="left" height="30" width="30"><b> Msc Software Technology</b></a>
+                                <a href="mscst.html"><img src="main\mscst.png"  align ="left" height="30" width="30"><b> Msc Software Technology</b></a>
                             </li>
                              <li>
-                                <a href="mscbio.html"><img src="AIMIT HUB\essential\bio.png"  align ="left" height="30" width="30"><b> Msc Bio-Informatics</b></a>
+                                <a href="mscbio.html"><img src="main\bio.png"  align ="left" height="30" width="30"><b> Msc Bio-Informatics</b></a>
                             </li>
                             <li>
-                                <a href="pgdca.html"><img src="AIMIT HUB\essential\pgdca.png"  align ="left" height="30" width="30"><b> PG Diploma in Computer Applications</b></a>
+                                <a href="pgdca.html"><img src="main\pgdca.png"  align ="left" height="30" width="30"><b> PG Diploma in Computer Applications</b></a>
                             </li>
                             </ul>
                             
@@ -124,7 +124,7 @@
 
         </nav>
         <!-- /. NAV SIDE  -->
-		<div class="main" id="main">
+		<div id="main">
 		<?php
 			include "loginmodule.php";
 		?>
@@ -132,56 +132,55 @@
         <div id="page-wrapper">
             <div id="page-inner">
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-md-12 ">
                         <h1 class="page-head-line">DASHBOARD</h1>
                         <h1 class="page-subhead-line">Welcome to AIMIT HUB </h1>
 
                     </div>
                 </div>
                 <!-- /. ROW  -->
-				 <div class="col-md-4">
-                        <div class="main-box mb-green">
+				 <div class="col-md-4 shad">
+                        <div class="main-box mb-green effect2">
                             <a href="#">
                                 <i ></i>
                                 <h5>Academic Performance</h5>
                             </a>
                         </div>
                     </div>
-					<div class="col-md-4">
-                        <div class="main-box mb-blue">
-                            <a href="\Users\dont know\Desktop\AIMIT HUB\advance-admin\leave.html">
+					<div class="col-md-4 shad">
+                        <div class="main-box mb-blue effect2">
+                            <a href="leave.html">
                                 <i ></i>
                                 <h5>Leave Applications</h5>
                             </a>
                         </div>
                     </div>
-					<div class="col-md-4">
-                        <div class="main-box mb-orange">
-                            <a href="\Users\dont know\Desktop\AIMIT HUB\advance-admin\library.html">
+					<div class="col-md-4 shad">
+                        <div class="main-box mb-orange effect2">
+                            <a href="library.html">
                                 <i ></i>
                                 <h5>Library Book status</h5>
                             </a>
                         </div>
                     </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="main-box mb-red">
-                            <a href="\Users\dont know\Desktop\AIMIT HUB\advance-admin\assignment.html">
+                    <div class="col-md-4 shad">
+                        <div class="main-box mb-red effect2">
+                            <a href="assignment.html">
                                 <i ></i>
                                 <h5>Assignment</h5>
                             </a>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="main-box mb-dull">
-                            <a href="\Users\dont know\Desktop\AIMIT HUB\advance-admin\seminar.html">
+                    <div class="col-md-4 shad">
+                        <div class="main-box mb-dull effect2">
+                            <a href="seminar.html">
                                 <i ></i>
                                 <h5>Seminar</h5>
                             </a>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="main-box mb-voi">
+                    <div class="col-md-4 shad">
+                        <div class="main-box mb-voi effect2">
                             <a href="\Users\dont know\Desktop\AIMIT HUB\advance-admin\project.html">
                                 <i ></i>
                                 <h5>Project</h5>
@@ -191,7 +190,7 @@
 					 
 					 
 					
-                </div>
+               
                 <!-- /. ROW  -->
                <div class="col-md-4">
                         <div class="panel panel-info">

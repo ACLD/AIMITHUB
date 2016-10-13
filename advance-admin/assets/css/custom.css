@@ -13,10 +13,12 @@
     -moz-border-radius:5px ;
     -webkit-border-radius:5px;
     margin-bottom:40px;
+	
 }
     .main-box a,.main-box a:hover {
         color:#fff;
         text-decoration:none;
+		
 
     }
 .mb-dull {
@@ -42,6 +44,44 @@
         font-weight:800;
         text-transform:uppercase;
     }
+.shad{
+z-index:2;
+
+}	
+.effect2
+{
+  position: relative;
+}
+.effect2:before, .effect2:after
+{
+  z-index: -1;
+    position: absolute;
+    content: "";
+      padding: 19px;
+    left: 17px;
+    width: 55%;
+    top: 23%;
+  max-width:300px;
+  background: #777;
+  -webkit-box-shadow: 0 15px 10px #777;
+  -moz-box-shadow: 0 15px 10px #777;
+  box-shadow: 0 15px 10px #777;
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+.effect2:after
+{
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+  right: 10px;
+  left: auto;
+}	
 /*==============================================
     CHAT WINDOW  STYLES    
     =============================================*/
