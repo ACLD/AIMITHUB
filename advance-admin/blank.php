@@ -1,15 +1,14 @@
 ﻿<!DOCTYPE html>
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AIMIT Gallery</title>
+    <title>AIMIT HUB 2016</title>
 
     <!-- BOOTSTRAP STYLES-->
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
     <!-- FONTAWESOME STYLES-->
     <link href="assets/css/font-awesome.css" rel="stylesheet" />
-    <!-- PAGE LEVEL STYLES -->
-    <link href="assets/css/prettyPhoto.css" rel="stylesheet" />
     <!--CUSTOM BASIC STYLES-->
     <link href="assets/css/basic.css" rel="stylesheet" />
     <!--CUSTOM MAIN STYLES-->
@@ -27,7 +26,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="blank.html">AIMIT HUB</a>
+                <a class="navbar-brand" href="index.php">AIMIT HUB</a>
             </div>
 
             <div class="header-right">
@@ -116,9 +115,9 @@
                         </ul>
                     </li>
                      <li>
-                         <a href="gallery.html"><img src="/home/arun/Desktop/AIMIT HUB/AIMIT HUB/main/gallery.png"  height="41" width="41">Gallery</a>
+                        <a href="gallery.html"><i class="fa fa-anchor "></i>Gallery</a>
                     </li>
-                      <li>
+                     <li>
                         <a href="error.html"><img src="/home/arun/Desktop/AIMIT HUB/AIMIT HUB/main/library.png"  height="42" width="42"> <b>Library</b></a>
                     </li>
                      <li>
@@ -181,212 +180,28 @@
                       
             </div>
 
-
         </nav>
         <!-- /. NAV SIDE  -->
         <div id="page-wrapper">
             <div id="page-inner">
                 <div class="row">
                     <div class="col-md-12">
-                        <h1 class="page-head-line">Gallery Example</h1>
-                        <h1 class="page-subhead-line">This is dummy text , you can replace it with your original text. </h1>
+                        <h1 class="page-head-line"></h1>
+                        <h1 class="page-subhead-line">Under development. </h1>
 
                     </div>
                 </div>
                 <!-- /. ROW  -->
-                <div id="port-folio">
-                      <div class="row " >
-                          <ul id="filters" >
-						<li><span class="filter active" data-filter="landscape nature awesome">All </span></li>
-						<li><span class="filter active">/</span></li>
-						<li><span class="filter" data-filter="landscape">Landscape</span></li>
-						<li><span class="filter">/</span></li>
-						<li><span class="filter" data-filter="nature">Nature</span></li>
-						<li><span class="filter">/</span></li>
-						<li><span class="filter" data-filter="awesome">Awesome</span></li>
-					</ul>
-                <div class="col-md-4 ">
-
-                    <div class="portfolio-item awesome mix_all" data-cat="awesome" >
-
-
-                        <img src="assets/img/portfolio/g.jpg" class="img-responsive " alt="" />
-                        <div class="overlay">
-                            <p>
-                                <span>
-                                Image Orinagal Size: 750x500
-                                </span>
-                               
-                                PROJECT TITLE HERE
-                            </p>
-                            <a class="preview btn btn-info " title="Image Title Here" href="assets/img/portfolio/g.jpg"><i class="fa fa-plus fa-2x"></i></a>
-
+                <h1>Error!</h1>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="alert alert-info">
+                            This is a social networking site for Aloysius Institute of Management & Information Technology
+                          <br />
+                            Aimit Hub 2016 <a href="http://www.aimithub2016.com/" target="_blank">aimithub2016.com</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 ">
-
-                    <div class="portfolio-item landscape mix_all" data-cat="landscape" >
-
-
-                        <img src="assets/img/portfolio/b.jpg" class="img-responsive " alt="" />
-                        <div class="overlay">
-                            <p>
-                                <span>
-                                Image Orinagal Size: 750x500
-                                </span>
-                               
-                                PROJECT TITLE HERE
-                            </p>
-                            <a class="preview btn btn-info" title="Image Title Here" href="assets/img/portfolio/b.jpg"><i class="fa fa-plus fa-2x"></i></a>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 ">
-
-                    <div class="portfolio-item nature mix_all" data-cat="nature" >
-
-
-                        <img src="assets/img/portfolio/c.png" class="img-responsive " alt="" />
-                        <div class="overlay">
-                          <p>
-                                <span>
-                                Image Orinagal Size: 750x500
-                                </span>
-                               
-                                PROJECT TITLE HERE
-                            </p>
-                            <a class="preview btn btn-info" title="Image Title Here" href="assets/img/portfolio/c.png"><i class="fa fa-plus fa-2x"></i></a>
-
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="row " style="padding-top: 50px;">
-                <div class="col-md-4 ">
-
-                    <div  class="portfolio-item nature mix_all" data-cat="nature" >
-
-
-                        <img src="assets/img/portfolio/d.jpg" class="img-responsive " alt="" />
-                        <div class="overlay">
-                           <p>
-                                <span>
-                                Image Orinagal Size: 750x500
-                                </span>
-                               
-                                PROJECT TITLE HERE
-                            </p>
-                            <a class="preview btn btn-info " title="Image Title Here" href="assets/img/portfolio/d.jpg"><i class="fa fa-plus fa-2x"></i></a>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 ">
-
-                    <div  class="portfolio-item nature mix_all" data-cat="nature" >
-
-
-                        <img src="assets/img/portfolio/e.jpg" class="img-responsive " alt="" />
-                        <div class="overlay">
-                            <p>
-                                <span>
-                                Image Orinagal Size: 750x500
-                                </span>
-                               
-                                PROJECT TITLE HERE
-                            </p>
-                            <a class="preview btn btn-info" title="Image Title Here" href="assets/img/portfolio/e.jpg"><i class="fa fa-plus fa-2x"></i></a>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 ">
-
-                    <div  class="portfolio-item nature mix_all" data-cat="nature" >
-
-
-                        <img src="assets/img/portfolio/h.jpg" class="img-responsive " alt="" />
-                        <div class="overlay">
-                          <p>
-                                <span>
-                                Image Orinagal Size: 750x500
-                                </span>
-                               
-                                PROJECT TITLE HERE
-                            </p>
-                            <a class="preview btn btn-info" title="Image Title Here" href="assets/img/portfolio/h.jpg"><i class="fa fa-plus fa-2x"></i></a>
-
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-                    <div class="row "  style="padding-top: 50px;" >
-                <div class="col-md-4 ">
-
-                    <div  class="portfolio-item nature mix_all" data-cat="nature" >
-
-
-                        <img src="assets/img/portfolio/g.jpg" class="img-responsive " alt="" />
-                        <div class="overlay">
-                            <p>
-                                <span>
-                                Image Orinagal Size: 750x500
-                                </span>
-                               
-                                PROJECT TITLE HERE
-                            </p>
-                            <a class="preview  btn btn-info" title="Image Title Here" href="assets/img/portfolio/g.jpg"> <i class="fa fa-plus fa-2x"></i></a>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 ">
-
-                    <div  class="portfolio-item awesome mix_all" data-cat="awesome" >
-
-
-                        <img src="assets/img/portfolio/b.jpg" class="img-responsive " alt="" />
-                        <div class="overlay">
-                            <p>
-                                <span>
-                                Image Orinagal Size: 750x500
-                                </span>
-                               
-                                PROJECT TITLE HERE
-                            </p>
-                            <a class="preview btn btn-info" title="Image Title Here" href="assets/img/portfolio/b.jpg"><i class="fa fa-plus fa-2x"></i></a>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 ">
-
-                    <div  class="portfolio-item nature landscape mix_all" data-cat="nature landscape" >
-
-
-                        <img src="assets/img/portfolio/c.png" class="img-responsive " alt="" />
-                        <div class="overlay">
-                          <p>
-                                <span>
-                                Image Orinagal Size: 750x500
-                                </span>
-                               
-                                PROJECT TITLE HERE
-                            </p>
-                            <a class="preview btn btn-info" title="Image Title Here" href="assets/img/portfolio/c.png"><i class="fa fa-plus fa-2x"></i></a>
-
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-                </div>
-               
 
             </div>
             <!-- /. PAGE INNER  -->
@@ -395,7 +210,7 @@
     </div>
     <!-- /. WRAPPER  -->
     <div id="footer-sec">
-        &copy; AIMIT HUB | Design By : Arun Mathew Jose,Puneeth Pai & Kevin Milan Sequeira <br><a href="http://www.aimithub2016.com" target="_blank">www.aimithub2016.com</a></br>
+        &copy; AIMIT HUB | Design By :Arun Mathew Jose,Puneeth Pai & Kevin Milan Sequeira <br><a href="http://www.aimithub2016.com/" target="_blank">www.aimithub2016.com</a></br>
     </div>
     <!-- /. FOOTER  -->
     <!-- SCRIPTS -AT THE BOTOM TO REDUCE THE LOAD TIME-->
@@ -403,14 +218,11 @@
     <script src="assets/js/jquery-1.10.2.js"></script>
     <!-- BOOTSTRAP SCRIPTS -->
     <script src="assets/js/bootstrap.js"></script>
-     <!-- PAGE LEVEL SCRIPTS -->
-    <script src="assets/js/jquery.prettyPhoto.js"></script>
-    <script src="assets/js/jquery.mixitup.min.js"></script>
     <!-- METISMENU SCRIPTS -->
     <script src="assets/js/jquery.metisMenu.js"></script>
     <!-- CUSTOM SCRIPTS -->
     <script src="assets/js/custom.js"></script>
-     <!-- CUSTOM Gallery Call SCRIPTS -->
-    <script src="assets/js/galleryCustom.js"></script>
+
+
 </body>
 </html>

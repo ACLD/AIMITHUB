@@ -2,7 +2,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="AIMITHUB" content="width=device-width, initial-scale=1.0" />
     <title>AIMIT HUB 2016</title>
 
     <!-- BOOTSTRAP STYLES-->
@@ -31,9 +31,9 @@
 
             <div class="header-right">
 
-              <a href="message-task.html" title="New Message"><img src="\Users\dont know\Desktop\AIMIT HUB\AIMIT HUB\main\message.png"  height="41" width="41"></a>
-              <a href="message-task.html"  title="New Task"><img src="\Users\dont know\Desktop\AIMIT HUB\AIMIT HUB\main\notification.png"  height="41" width="41"></a>
-              <a href="index.php"  title="Logout"><img src="\Users\dont know\Desktop\AIMIT HUB\AIMIT HUB\main\logout.png"  height="41" width="41"> </a>
+              <a href="message-task.html" title="New Message"><img src="main\message.png"  height="41" width="41"></a>
+              <a href="message-task.html"  title="New Task"><img src="main\notification.png"  height="41" width="41"></a>
+             <img src="main\logout.png"  height="41" width="41" onclick="f1()"  title="Login"> </a>
 
 
             </div>
@@ -58,17 +58,17 @@
 
                     <li>
                         
-						<a  href="blank.html"><img src="\Users\dont know\Desktop\AIMIT HUB\AIMIT HUB\dashboard\dash.png"  height="41" width="41"> <b>Dashboard</b></a>
+						<a  href="blank.html"><img src="main\dash.png"  height="41" width="41"> <b>Dashboard</b></a>
                     </li>
                     
                    
                     <li>
-                        <a href="#"><img src="\Users\dont know\Desktop\AIMIT HUB\AIMIT HUB\main\print counter.png"  height="42" width="42"> <b>Print Counter</b><span class="fa arrow"></span></a>
+                        <a href="#"><img src="main\print counter.png"  height="42" width="42"> <b>Print Counter</b><span class="fa arrow"></span></a>
                          <ul class="nav nav-second-level">
                            
                             
                              <li>
-                                <a href="\Users\dont know\Desktop\AIMIT HUB\advance-admin\sprint.html"><img src="\Users\dont know\Desktop\AIMIT HUB\AIMIT HUB\print counter\sprint.png"  align ="left" height="30" width="30"> <b>Student Print</b></a>
+                                <a href="sprint.html"><img src="main\sprint.png"  align ="left" height="30" width="30"> <b>Student Print</b></a>
                             </li>
                              
                            
@@ -76,25 +76,25 @@
                     </li>
                      
                      <li>
-                        <a href="\Users\dont know\Desktop\AIMIT HUB\advance-admin\librarybook.html"><img src="\Users\dont know\Desktop\AIMIT HUB\AIMIT HUB\main\library.png"  height="42" width="42"> <b>Library</b></a>
+                        <a href="librarybook.html"><img src="main\library.png"  height="42" width="42"> <b>Library</b></a>
                     </li>
                      <li>
-                        <a href="#"><img src="\Users\dont know\Desktop\AIMIT HUB\AIMIT HUB\main\essential.png"  height="42" width="42"> <b>Essential </b><span class="fa arrow"></span></a>
-                          <ul class="nav nav-second-level">
+                        <a href="#"><img src="main\essential.png"  height="42" width="42"> <b>Essential </b><span class="fa arrow"></span></a>
+                         <ul class="nav nav-second-level">
                             <li>
-                                <a href="\Users\dont know\Desktop\AIMIT HUB\advance-admin\mca.html"><img src="\Users\dont know\Desktop\AIMIT HUB\AIMIT HUB\essential\MCA.png"  align ="left" height="30" width="30"><b> Master of Computer Applications</b></a>
+                                <a href="mca.html"><img src="main\MCA.png"  align ="left" height="30" width="30"><b> Master of Computer Applications</b></a>
                             </li>
                             <li>
-                                <a href="\Users\dont know\Desktop\AIMIT HUB\advance-admin\mba.html"><img src="\Users\dont know\Desktop\AIMIT HUB\AIMIT HUB\essential\mba.png"  align ="left" height="30" width="30"><b> Master of Business Administration</b></a>
+                                <a href="mba.html"><img src="main\mba.png"  align ="left" height="30" width="30"><b> Master of Business Administration</b></a>
                             </li>
                              <li>
-                                <a href="\Users\dont know\Desktop\AIMIT HUB\advance-admin\mscst.html"><img src="\Users\dont know\Desktop\AIMIT HUB\AIMIT HUB\essential\mscst.png"  align ="left" height="30" width="30"><b> Msc Software Technology</b></a>
+                                <a href="mscst.html"><img src="main\mscst.png"  align ="left" height="30" width="30"><b> Msc Software Technology</b></a>
                             </li>
                              <li>
-                                <a href="\Users\dont know\Desktop\AIMIT HUB\advance-admin\mscbio.html"><img src="\Users\dont know\Desktop\AIMIT HUB\AIMIT HUB\essential\bio.png"  align ="left" height="30" width="30"><b> Msc Bio-Informatics</b></a>
+                                <a href="mscbio.html"><img src="main\bio.png"  align ="left" height="30" width="30"><b> Msc Bio-Informatics</b></a>
                             </li>
                             <li>
-                                <a href="\Users\dont know\Desktop\AIMIT HUB\advance-admin\pgdca.html"><img src="\Users\dont know\Desktop\AIMIT HUB\AIMIT HUB\essential\pgdca.png"  align ="left" height="30" width="30"><b> PG Diploma in Computer Applications</b></a>
+                                <a href="pgdca.html"><img src="main\pgdca.png"  align ="left" height="30" width="30"><b> PG Diploma in Computer Applications</b></a>
                             </li>
                             </ul>
                             
@@ -102,7 +102,7 @@
                          
                     
                         <li>
-                        <a href="#"><img src="\Users\dont know\Desktop\AIMIT HUB\AIMIT HUB\main\about.png"  height="42" width="42"><b> About AIMIT HUB</b><span class="fa arrow"></span></a>
+                        <a href="#"><img src="main\about.png"  align ="left" height="30" width="30"><b> About AIMIT HUB</b><span class="fa arrow"></span></a>
                          <ul class="nav nav-second-level">
                             <li>
                                 <a href="#"><i class="fa fa-bicycle "></i>Vision</a>
@@ -117,25 +117,8 @@
 
         </nav>
         <!-- /. NAV SIDE  -->
-        <div id="page-wrapper">
-            <div id="page-inner">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h1 class="page-head-line">DASHBOARD</h1>
-                        <h1 class="page-subhead-line">Welcome to AIMIT HUB </h1>
-
-                    </div>
-                </div>
-				 <!-- /. PAGE INNER  -->
-        </div>
-        <!-- /. PAGE WRAPPER  -->
-    </div>
-    <!-- /. WRAPPER  -->
-    <div id="footer-sec">
-        &copy; AIMIT HUB | Design By :Arun Jose,Puneeth Pai & Kevin Milan Sequeira <br><a href="http://www.aimithub2016.com/" target="_blank">www.aimithub2016.com</a></br>
-    </div>
-    <!-- /. FOOTER  -->
-    <!-- SCRIPTS -AT THE BOTOM TO REDUCE THE LOAD TIME-->
+		
+		<!-- SCRIPTS -AT THE BOTOM TO REDUCE THE LOAD TIME-->
     <!-- JQUERY SCRIPTS -->
     <script src="assets/js/jquery-1.10.2.js"></script>
     <!-- BOOTSTRAP SCRIPTS -->
