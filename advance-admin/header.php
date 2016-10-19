@@ -45,6 +45,85 @@
 
             </div>
         </nav>
-        <!-- /. NAV TOP  -->
+                <!-- /. NAV TOP END  -->
+				 <!-- /. NAV SIDE START  -->
+        <nav class="navbar-default navbar-side" role="navigation">
+            <div class="sidebar-collapse">
+                <ul class="nav" id="main-menu">
+                    <li>
+                        <div class="user-img-div">
+                            <img src="assets/img/user.jpg" class="img-thumbnail" />
+
+                            <div class="inner-text">
+                                Arun Mathew Jose
+                            <br />
+                                <small>Last Login : 2 Days Ago </small>
+                            </div>
+                        </div>
+
+                    </li>
+
+
+                    <li>
+                        
+						<a  href="blank.html"><img src="main\dash.png"  height="41" width="41"> <b>Dashboard</b></a>
+                    </li>
+                    
+                   
+                    <li>
+                        <a href="#"><img src="main\print counter.png"  height="42" width="42"> <b>Print Counter</b><span class="fa arrow"></span></a>
+                         <ul class="nav nav-second-level">
+                           
+                            
+                             <li>
+                                <a href="Advance-admin\sprint.html"><img src="main\sprint.png"  align ="left" height="30" width="30"> <b>Student Print</b></a>
+                            </li>
+                             
+                           
+                        </ul>
+                    </li>
+                     
+                     <li>
+                        <a href="librarybook.html"><img src="main\library.png"  height="42" width="42"> <b>Library</b></a>
+                    </li>
+                     <li>
+                        <a href="#"><img src="main\essential.png"  height="42" width="42"> <b>Essential </b><span class="fa arrow"></span></a>
+                         <ul class="nav nav-second-level">
+                            <li>
+                                <a href="mca.html"><img src="main\MCA.png"  align ="left" height="30" width="30"><b> Master of Computer Applications</b></a>
+                            </li>
+                            <li>
+                                <a href="mba.html"><img src="main\mba.png"  align ="left" height="30" width="30"><b> Master of Business Administration</b></a>
+                            </li>
+                             <li>
+                                <a href="mscst.html"><img src="main\mscst.png"  align ="left" height="30" width="30"><b> Msc Software Technology</b></a>
+                            </li>
+                             <li>
+                                <a href="mscbio.html"><img src="main\bio.png"  align ="left" height="30" width="30"><b> Msc Bio-Informatics</b></a>
+                            </li>
+                            <li>
+                                <a href="pgdca.html"><img src="main\pgdca.png"  align ="left" height="30" width="30"><b> PG Diploma in Computer Applications</b></a>
+                            </li>
+                            </ul>
+                            
+                           </li>
+                         
+                    
+                        <li>
+                        <a href="#"><img src="main\about.png"  height="42" width="42"><b> About AIMIT HUB</b><span class="fa arrow"></span></a>
+                         <ul class="nav nav-second-level">
+                            <li>
+                                <a href="#"><i class="fa fa-bicycle "></i>Vision</a>
+                            </li>
+                             <li>
+                                <a href="#"><i class="fa fa-flask "></i>Developers</a>
+                            </li>
+                                </ul>
+                            </li>
+                      
+            </div>
+
+        </nav>
+        <!-- /. NAV SIDE  -->
 </body>
 </html>		
