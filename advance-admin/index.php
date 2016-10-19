@@ -149,7 +149,7 @@
                     </div>
 					<div class="col-md-4 shad">
                         <div class="main-box mb-blue effect2">
-                            <a href="leave.php">
+                            <a href="leave.html">
                                 <i ></i>
                                 <h5>Leave Applications</h5>
                             </a>
