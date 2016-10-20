@@ -3,13 +3,13 @@ body{
 	background-size: cover;
 	background-attachment: fixed;
 	font-family: Raleway, Open Sans, Droid Sans, Roboto,arial, sans-serif;
-	background-image: url('file:///C|/Users/Deva/Documents/GitHub/AIMITHUB/login/image/aimit.jpg');
+	background-image: url('../image/aimit.jpg');
 }
 .blurred-bg{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
-	background-image: url('file:///C|/Users/Deva/Documents/GitHub/AIMITHUB/login/image/img.jpg');
+	background-image: url('../image/img.jpg');
 	background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(70,68,68,1.00) 100%);
 	background-image: -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(70,68,68,1.00) 100%);
 	background-image: -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(70,68,68,1.00) 100%);
