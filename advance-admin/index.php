@@ -40,7 +40,7 @@
 
               <a href="message-task.html" title="New Message"><img src="main\message.png"  height="41" width="41"></a>
               <a href="message-task.html"  title="New Task"><img src="main\notification.png"  height="41" width="41"></a>
-              <a title="Login" onclick="Hide('0')"><img src="main\logout.png" height="41" width="41"> </a>
+              <a title="Login" href="loginmodule.php" ><img src="main\logout.png" height="41" width="41"> </a>
 
 
             </div>
@@ -125,9 +125,6 @@
         </nav>
         <!-- /. NAV SIDE  -->
 		<div id="main">
-		<?php
-			include "loginmodule.php";
-		?>
 		</div>
         <div id="page-wrapper">
             <div id="page-inner">
@@ -233,7 +230,7 @@
     </div>
     <!-- /. WRAPPER  -->
     <div id="footer-sec">
-        &copy; AIMIT HUB | Design By :Arun Jose,Puneeth Pai & Kevin Milan Sequeira <br><a href="http://www.aimithub2016.com/" target="_blank">www.aimithub2016.com</a></br>
+        &copy; AIMIT HUB | Design By : Arshad Sayed, Devdatt Sawant, Linson Lorance & Cecil Mathews <br><a href="http://www.aimithub2016.com/" target="_blank">www.aimithub2016.com</a></br>
     </div>
     <!-- /. FOOTER  -->
     <!-- SCRIPTS -AT THE BOTOM TO REDUCE THE LOAD TIME-->

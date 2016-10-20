@@ -1,20 +1,22 @@
-
-<!DOCTYPE HTML>
+ <html>
+<head>
+	<meta charset="utf-8">
+		<link href="assets/css/style.css" rel='stylesheet' type='text/css' />
+		<link href="css/blur.css" rel="stylesheet" type="text/css">
+		<meta name="login" content="width=device-width, initial-scale=1">
+		
+</head>
 <html>
 <head>
-<title>New user signup </title>
-
-
-<link href="assets/css/signup.css" rel="stylesheet" type="text/css">
-	 
+	<meta charset="utf-8">
+		<link href="assets/css/style.css" rel='stylesheet' type='text/css' />
+		<link href="css/blur.css" rel="stylesheet" type="text/css">
+		<meta name="login" content="width=device-width, initial-scale=1">
+		
 </head>
-
 <body>
-<?php
-include("header.php");
-
-?>
-
+	<div id="box" class="box blurred-bg tinted">
+  <div class="content">
    <h1 align="center"><span id="signuphead">New User Signup</span></h1>
    <form name="form1" method="post" action="signupuser.php"  enctype="multipart/form-data">
 
@@ -54,7 +56,13 @@ include("header.php");
          </tr>
        </table>
      </form>
- <form>
- <p>&nbsp; </p>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>
+$(function() {
+	$( ".box" ).draggable();
+});
+</script>
 </body>
-</html>
+

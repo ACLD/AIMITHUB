@@ -2,27 +2,29 @@
 <head>
 	<meta charset="utf-8">
 		<link href="assets/css/style.css" rel='stylesheet' type='text/css' />
+		<link href="css/blur.css" rel="stylesheet" type="text/css">
 		<meta name="login" content="width=device-width, initial-scale=1">
 		
 </head>
 <body>
-	 <div class="main">
-		<div class="login-form">
-			<h1>Member Login</h1>
-					<div class="head">
-						<img src="main/login.png" alt=""/>
-					</div>
-				<form action="conn/login_check.php" method="post">
-						<input type="Button" class="close" value="X" onclick="document.getElementById('main').style.visibility='hidden'">
-						<input type="text" class="text" name="regnum" value="USERNAME" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'USERNAME';}" >
-						<input type="password" value="Password" name="password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}">
+	<div id="box" class="box blurred-bg tinted">
+  <div class="content">
+   <form action="conn/login_check.php" method="post">
+						<a href="index.php" ><input type="Button" class="close" value="X" ></a>
+						<input type="text" class="text" name="regnum" value="USERNAME" onfocus="this.value = '';">
+						<input type="password" value="Password" name="password" onfocus="this.value = '';">
 						<div class="submit">
 							<input type="submit" value="LOGIN" >
 					</div>	
-					<p><a href="signup.php">Signup </a><a href="#">Forgot Password ?</a></p>
-					<input type="button" Value="Join Us" name="butn" class="sign" onclick="signup.php" >
-				</form>
-				
-			</div>
-		</div>
+					<a href="signup.php"><input type="button" Value="Join Us" name="butn" class="sign" ></a>
+					<a href="#"><input type="button" Value="Forget Password?" name="butn" class="sign" ></a>
+			</form> 
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>
+$(function() {
+	$( ".box" ).draggable();
+});
+</script>
 </body>
