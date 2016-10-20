@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php 
 include('header.php');
 
@@ -9,6 +10,9 @@ include('header.php');
 
 
 ?>    
+=======
+
+>>>>>>> origin/master
 <!DOCTYPE html>
 <html>
 <head>
@@ -19,12 +23,23 @@ include('header.php');
   
   <script>
   $(document).ready(function() {
+<<<<<<< HEAD
+=======
+	 
+>>>>>>> origin/master
     $("#datepicker").datepicker();
   });
   </script>
 </head>
 <body>
+<<<<<<< HEAD
  
+=======
+<?php 
+include('header.php');
+
+?>     
+>>>>>>> origin/master
    
         <div id="page-wrapper">
             <div id="page-inner">
@@ -53,13 +68,21 @@ include('header.php');
 								To   <input type="text" placeholder="Professor Name" /><br><br>
 
 								 <form>
+<<<<<<< HEAD
 									Date:<input id="datepicker" name="date" placeholder="click to choose the date"/>
+=======
+									Date:<input id="datepicker"  placeholder="click to choose the date"/>
+>>>>>>> origin/master
 								</form><br><br>
 								 
 								<br>
 								Subject <input type="text"  name="sub" style="margin: 0px; width: 500px; height: 20px;" /><br><br>
 								Reason for the Absence<br>
+<<<<<<< HEAD
 								<textarea height="400" width="400" style="margin: 0px; width: 551px; height: 261px;" name="description"></textarea><br><br>
+=======
+								<textarea height="400" width="400" style="margin: 0px; width: 551px; height: 261px;" name="reason"></textarea><br><br>
+>>>>>>> origin/master
 								<br>
 								<br>
 								<div class="panel panel-default">
@@ -67,9 +90,15 @@ include('header.php');
 								<h4>Subjects</h3>
 								<b>9:00 AM to 10:00 AM</b><br>
 
+<<<<<<< HEAD
 								<select name="subject_id">
 								
 								<option >P.601.3(E1) Data structure & Analysis of Algorithms</option>
+=======
+								<select name="lecture1">
+								
+								<option>P.601.3(E1) Data structure & Analysis of Algorithms</option>
+>>>>>>> origin/master
 								<option>P.602.3(E1) Software Engineering</option>
 								<option>P.603.3(E1)Object Oriented programming with Java</option>
 								<option>P.604.3(E1)Database Management System</option>
@@ -202,4 +231,8 @@ include('header.php');
 
 
 </body>
+<<<<<<< HEAD
 </html>
+=======
+</html>
+>>>>>>> origin/master
