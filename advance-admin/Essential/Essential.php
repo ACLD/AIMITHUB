@@ -44,7 +44,7 @@
 			});
 		</script>
 	</head>
-	<body id="by">
+<body id="by">
     <div id="wrapper">
         <nav class="navbar navbar-default navbar-cls-top " role="navigation" style="margin-bottom: 0">
             <div class="navbar-header">
@@ -54,7 +54,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">AIMIT HUB</a>
+                <a class="navbar-brand" href="..\index.php">AIMIT HUB</a>
             </div>
 
             <div class="header-right">
@@ -66,13 +66,67 @@
 
             </div>
         </nav>
-		
-		<div id="elfinder">
-			<form name="video" enctype="multipart/form-data" method="post" action="">
-				
-			</form>
+        <!-- /. NAV TOP  -->
+        <nav class="navbar-default navbar-side" role="navigation">
+            <div class="sidebar-collapse">
+                <ul class="nav" id="main-menu">
+                    <li>
+                        <div class="user-img-div">
+                            <img src="..\assets/img/user.jpg" class="img-thumbnail" />
+
+                            <div class="inner-text">
+                                Arun Mathew Jose
+                            <br />
+                                <small>Last Login : 2 Days Ago </small>
+                            </div>
+                        </div>
+
+                    </li>
+					
+					<li>
+                        <a href="#"><img src="..\main\essential.png"  height="42" width="42"> <b>Academic Performance </b> </a>
+                    </li>
+					<li>
+						<a href="#"><img src="..\main\about.png"  height="42" width="42"><b>Leave Application</b></a>
+                    </li>  
+
+                    <li>
+                        
+						<a  href="blank.html"><img src="..\main\dash.png"  height="41" width="41"> <b>Dashboard</b></a>
+                    </li>
+                    
+                   
+                    <li>
+                        <a href="#"><img src="..\main\print counter.png"  height="42" width="42"> <b>Assignment</b></a>
+                    </li>
+                     
+                     <li>
+                        <a href="librarybook.html"><img src="..\main\library.png"  height="42" width="42"> <b>Seminar</b></a>
+                    </li>
+					<li>
+                        <a href="#"><img src="..\main\essential.png"  height="42" width="42"> <b>Essential </b></a>
+                    </li>
+					<li>
+						<a href="#"><img src="..\main\about.png"  height="42" width="42"><b> Project</b></a>
+                    </li>  
+            </div>
+
+        </nav>
+        <!-- /. NAV SIDE  -->
+		<div id="main">
 		</div>
+		<div id="page-wrapper">
+            <div id="page-inner">
+			
+		<div id="elfinder"></div>
+	
 		
+		</div>	
+            <!-- /. PAGE INNER  -->
+        </div>
+        <!-- /. PAGE WRAPPER  -->
+    </div>
+    <!-- /. WRAPPER  -->
 		<div id="footer-sec">
         &copy; AIMIT HUB | Design By : Arshad Sayed, Devdatt Sawant, Linson Lorance & Cecil Mathews <br><a href="http://www.aimithub2016.com/" target="_blank">www.aimithub2016.com</a></br>
     </div>
