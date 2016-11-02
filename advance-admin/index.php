@@ -138,7 +138,7 @@
                 <!-- /. ROW  -->
 				 <div class="col-md-4 shad">
                         <div class="main-box mb-green effect2">
-                            <a href="#">
+                            <a href="acadamic.php">
                                 <i ></i>
                                 <h5>Academic Performance</h5>
                             </a>
