@@ -154,9 +154,9 @@
                     </div>
 					<div class="col-md-4 shad">
                         <div class="main-box mb-orange effect2">
-                            <a href="library.html">
+                            <a href="Essential\Essential.php">
                                 <i ></i>
-                                <h5>Library Book status</h5>
+                                <h5>Essentials</h5>
                             </a>
                         </div>
                     </div>
