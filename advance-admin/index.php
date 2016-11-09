@@ -220,9 +220,41 @@
                             </div>
 
                         </div>
+						
+						<div class="panel panel-info">
+                            <div class="panel-heading">
+                                <i class="fa fa-bell fa-fw"></i>New Task Panel
+                            </div>
+
+                            <div class="panel-body">
+                                <div class="list-group">
+
+                                    <a href="#" class="list-group-item">
+                                        <b >3 New Assignment</b>
+                                    <span ><em>12 minutes ago</em>
+                                    </span>
+                                    </a>
+                                    <a href="#" class="list-group-item">
+                                        <b >3 days left for book submission</b>
+                                    <span ><em>27 minutes ago</em>
+                                    </span>
+                                    </a>
+                                    <a href="#" class="list-group-item">
+                                        <b>3 days leave note pending</b>
+                                    <span ><em>43 minutes ago</em>
+                                    </span>
+                                    </a>
+                                   
+                                </div>
+                                <!-- /.list-group -->
+                                <a href="#" class="btn btn-info btn-block">View All Tasks</a>
+                            </div>
+
+                        </div>
+						
                     </div>
                 </div>
-				
+				 
 			</div>	
             <!-- /. PAGE INNER  -->
         </div>
