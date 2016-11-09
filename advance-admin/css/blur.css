@@ -37,11 +37,31 @@ body{
     transition: box-shadow .3s ease;
     opacity: 0.90;
 }
-  
-	.box:active{
+.box1{
+	width: 529px;
+    height: 600px;
+    left: -webkit-calc( 50% - 250px );
+    top: 0%;
+    position: absolute;
+    border-radius: 5px;
+    box-shadow: 0 20px 30px rgba(0,0,0,.6);
+    border: 1px solid rgba(255,255,255,.3);
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    text-shadow: 0 1px 1px rgba(0,0,0,.4);
+    display: flex;
+    transition: box-shadow .3s ease;
+    opacity: 0.90;
+}
+.box1:active{
     cursor:move;
     box-shadow:0 20px 50px rgba(0,0,0,.9);
-  }
+}
+.box:active{
+    cursor:move;
+    box-shadow:0 20px 50px rgba(0,0,0,.9);
+}
   
   .content{
     margin: auto;
