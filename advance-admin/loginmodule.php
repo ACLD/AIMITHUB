@@ -8,8 +8,8 @@
 </head>
 <body>
 	<div id="box" class="box blurred-bg tinted">
-  <div class="content">
-   <form action="conn/login_check.php" method="post">
+     <div class="content">
+       <form action="conn/login_check.php" method="post">
 						<a href="index.php" ><input type="Button" class="close" value="X" ></a>
 						<input type="text" class="text" name="regnum" value="USERNAME" onfocus="this.value = '';">
 						<input type="password" value="Password" name="password" onfocus="this.value = '';">
@@ -19,12 +19,6 @@
 					<a href="signup.php"><input type="button" Value="Join Us" name="butn" class="sign" ></a>
 					<a href="#"><input type="button" Value="Forget Password?" name="butn" class="sign" ></a>
 			</form> 
-</div>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script>
-$(function() {
-	$( ".box" ).draggable();
-});
-</script>
+      </div>
+	</div>
 </body>
